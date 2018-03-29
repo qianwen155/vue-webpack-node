@@ -10,8 +10,7 @@ vue基于node，和mysql数据库的使用，当中涉及vue-router、vue-cli（
 
     $cd server  
     $npm run server
-=======
-# vehicle
+
 
 > A Vue.js project for lexing
 >
