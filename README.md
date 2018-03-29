@@ -18,10 +18,9 @@ vue基于node，和mysql数据库的使用，当中涉及vue-router、vue-cli（
 > 项目技术栈：
 >
 > 1. vue
-> 2. vue-cli （包含webpack2、eslint等配置）
-> 3. axios （封装的http请求）
-> 4. stylus （兼容sass 和 less 语法）
-> 5. node.js
+> 2. vue-cli 
+> 3. axios 
+> 4. node.js
 
 ## Build Setup
 
