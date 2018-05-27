@@ -1,18 +1,19 @@
 
 # vue-webpack-node
-vue基于node，和mysql数据库的使用，当中涉及vue-router、vue-cli（脚手架）、axiose、element-ui（界面设计）等内容，包括登录注册功能、检索功能等的B2C商城，后续更多功能会逐渐完善。  
-  
+>vue项目是基于node+webpack，和mysql数据库的商城，当中涉及vue-router、vue-cli（脚手架）、axios、element-ui（界面设计）等内容，包括登录注册功能、购物车、下单等功能的B2C商城，后续更多功能会逐渐完善。  
+>我本地的数据库使用mysql,是使用xampp安装的，运行时需要打开apache和mysql
+ 
 **`前端运行`**
 
-    $npm run dev    
+ #   $npm run dev    
     
 **`台服务器运行（在当前的目录下进入server文件夹）`**
+ 
+#    $cd server  
+#    $npm run server
 
-    $cd server  
-    $npm run server
 
-
-> A Vue.js project for lexing
+> A Vue.js project for 
 >
 > 项目技术栈：
 >
@@ -20,21 +21,11 @@ vue基于node，和mysql数据库的使用，当中涉及vue-router、vue-cli（
 > 2. vue-cli 
 > 3. axios 
 > 4. node.js
+> 5. webpack
+> 6. element-ui
+
 
 ## Build Setup
-
-#### YARN
-
-```bash
-# install dependencies
-yarn install
-
-# serve with hot reload at localhost:8080
-yarn dev
-
-# build for production with minification
-yarn build
-```
 
 ####NPM
 
@@ -42,7 +33,7 @@ yarn build
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8082()
 npm run dev
 
 # build for production with minification
@@ -50,6 +41,10 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# run server()
+cd server
+npm run server
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
@@ -64,15 +59,16 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 │   └── static
 │       ├── css
 │       └── js
+├── server
+│   ├── api					api路由请求接口
 ├── src
-│   ├── api					api路由请求目录
-│   ├── assets				公用stylus库
-│   │   └── fonts			图标字体打包成fonts库
-│   ├── components			组件和页面所在目录
+│   ├── assets	    部分静态资源
+│   ├── views       商城页面所在目录
+│   ├── components			公共组件所在目录
 │   ├── router			路由目录
-│   └── utils			工具库
+│   └── background			后台管理系统的页面
 └── static
-    ├── css
+    ├── uploadimage     上传图片的本地文件夹
     └── js
 ```
 
