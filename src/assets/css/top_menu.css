@@ -1,0 +1,48 @@
+a:link,a:visited{color: #fff}
+.top_menu{
+	background-color: #1b1b1b;
+	position: fixed;
+	top: 0;left:0;
+	width: 100%;height: 3rem;
+	z-index: 999;
+}
+
+.leftpart img{position: absolute;
+	left:6rem;width: 2.4rem;margin-top: 0.3rem;}
+.leftpart .lefttext{position: absolute;left:9rem;color: #fff;}
+.leftpart .lefttext ul li{
+	float: left;	
+	margin: 0.7rem 0.6rem;
+	padding: 0.2rem 0.3rem;
+	font-size: 0.9rem;
+	letter-spacing:0.1rem;
+	cursor: pointer;
+	border-radius: 0.8rem;
+}
+/*,.lefttext .active 	animation: rotateIn 0.2s 1;*/
+.leftpart .lefttext ul li:hover{
+	background-color: #aaa;
+}
+
+.rightpart{
+	position: absolute;
+	float: right;
+	right:3rem;
+}
+.rightpart img{width: 2.4rem;margin-top: 0.3rem;}
+.rightpart button{color: #fff;}
+.iconfont{
+	font-family:"iconfont" !important;color: #fff;
+	margin: 0 0.6rem;
+	line-height: 3rem;
+	font-size: 1.3rem;font-style:normal;
+}
+#tool{cursor: pointer;}
+.tool{
+	position: absolute;
+	float: right;right:3rem;font-family: "微软雅黑";
+	display: none;
+}
+.tool .iconfont{font-size: 1rem;}
+.tool button{background-color: #1b1b1b;color: #fff;border: none;width: 8rem;cursor: pointer;}
+.tool button:hover{background-color: #aaa;}
