@@ -1,19 +1,19 @@
 
 # vue-webpack-node
->vue项目是基于node+webpack，和mysql数据库的商城，当中涉及vue-router、vue-cli（脚手架）、axios、element-ui（界面设计）等内容，包括登录注册功能、购物车、下单等功能的B2C商城，后续更多功能会逐渐完善。  
->我本地的数据库使用mysql,是使用xampp安装的，运行时需要打开apache和mysql
+>1、vue项目是基于node+webpack，和mysql数据库的商城，当中涉及vue-router、vue-cli（脚手架）、axios、element-ui（界面设计）等内容，包括登录注册功能、购物车、下单等功能的B2C商城，后续更多功能会逐渐完善。  
+>2、我本地的数据库使用mysql,是使用xampp安装的，运行时需要打开apache和mysql
  
-**`前端运行`**
+#前端运行#
 
- #   $npm run dev    
+    $npm run dev    
     
-**`台服务器运行（在当前的目录下进入server文件夹）`**
+#后台服务器运行（在当前的目录下进入server文件夹）#
  
-#    $cd server  
-#    $npm run server
+    $cd server  
+    $npm run server
 
 
-> A Vue.js project for 
+> A Vue.js project for online shop
 >
 > 项目技术栈：
 >
@@ -33,7 +33,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8082()
+# serve with hot reload at localhost:8082(run fontend)
 npm run dev
 
 # build for production with minification
@@ -42,12 +42,11 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# run server()
+# run server(run server)
 cd server
 npm run server
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 目录说明
 
@@ -71,4 +70,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     ├── uploadimage     上传图片的本地文件夹
     └── js
 ```
-
+##首页图
+ ![image](https://github.com/qianwen155/vue-webpack-node/blob/branch_test/shop.png)
